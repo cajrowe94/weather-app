@@ -1,0 +1,178 @@
+body {
+	overflow: scroll;
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+    background-color: black;
+    -webkit-background-size: 100%;
+}
+#main {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 1;
+}
+
+
+/* TOP MENU BAR */
+#menu-bar{
+  color: white;
+  border-radius: 10px;
+  white-space: nowrap;
+}
+#menu-bar h1{
+	letter-spacing: 1px;
+	background: #2A3740;
+	border-radius: 100px;
+	border: 7px ridge white;
+	padding:10px;
+  	font-size: 35px;
+  	font-weight: bold;
+  	font-family: 'Bangers', cursive;
+  	text-align: center;
+}
+
+
+/*LOCATION*/
+#name {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	text-align: center;
+	white-space: nowrap;
+	font-family: 'Bangers', cursive;
+	width: 100%;
+	font-size: 45px;
+	letter-spacing: 1px;
+}
+
+#loc {
+	color: black;
+	background-color: white;
+	border-radius: 60px;
+	padding:20px;
+	border:5px ridge white;
+	transition: all 0.6s ease-in-out;
+}
+
+
+/*TEMPERATURE*/
+#temp {
+	letter-spacing: 1px;
+	margin-top: 50px;
+	margin-bottom: 70px; 
+	text-align: center;
+	color: white;
+	white-space: nowrap;
+	width: 100%;
+	font-family: 'Bangers', cursive;
+	font-size: 35px;
+}
+#tempTitle {
+	color: black;
+	background-color: white;
+	border-radius: 60px;
+	padding:10px;
+	border:5px ridge white;
+	font-weight: bold;
+}
+#cels {
+	padding-top: 60px;
+	position: absolute;
+    left:5px;
+	transition: all 1s ease-in-out;
+}
+#fah {
+	padding-top: 60px;
+	position: absolute;
+    right:5px;
+	transition: all 1s ease-in-out;
+}
+
+/*HUMIDITY*/
+#hum {
+	margin-top: 85px;
+	margin-bottom: 20px; 
+	text-align: center;
+	color: white;
+	white-space: nowrap;
+	width: 100%;
+	font-family: 'Bangers', cursive;
+	font-size: 35px;
+}
+#humMain {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	color: white;
+	white-space: nowrap;
+	width: 100%;
+	font-family: 'Bangers', cursive;
+	font-size: 35px;
+}
+#humTitle {
+	color: black;
+	background-color: white;
+	border-radius: 60px;
+	padding:10px;
+	border:5px ridge white;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+#humPercent {
+	letter-spacing: 1px;
+}
+
+/*OVERVIEW*/
+#over {
+	margin-top: 25px;
+	margin-bottom: 20px; 
+	text-align: center;
+	color: white;
+	white-space: nowrap;
+	width: 100%;
+	font-family: 'Bangers', cursive;
+	font-size: 35px;
+}
+#overMain {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	color: white;
+	white-space: nowrap;
+	width: 100%;
+	font-family: 'Bangers', cursive;
+	font-size: 35px;
+}
+#overTitle {
+	letter-spacing: 1px;
+	font-weight: bold;
+	color: black;
+	background-color: white;
+	border-radius: 60px;
+	padding:10px;
+	border:5px ridge white;
+}
+#overview {
+	letter-spacing: 1px;
+}
+
+#myCanvas {
+	left:0;
+	top: 0;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
