@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Local Weather</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'/>
+    <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="rain.js"></script>
+    <link rel="stylesheet" type="text/css" href="weatherStyles.css"/>
+    <script src = "app.js"></script>
+  </head>
+  <body>
+    <div id = "main">
+      <div id = "menu-bar">
+        <h1>Another weather app?</h1>
+      </div>
+      <div id="name">
+        <span id = "loc"></span>
+      </div>
+      <div id = "temp">
+        <span id = "tempTitle">temperature</span>
+        <span id = "cels"></span>
+        <span id = "fah"></span>
+      </div>
+      <div id = "hum">
+        <span id = "humTitle">humidity</span>
+      </div>
+      <div id  = "humMain">
+        <span id = "humPercent"></span>
+      </div>
+      <div id = "over">
+        <span id = "overTitle">overview</span>
+      </div>
+      <div id="overMain">
+        <span id = "overview"></span>
+      </div>
+    </div>
+    <canvas id="myCanvas"></canvas>
+  </body>
+</html>
